@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Giovanni Centeno Design System Card Components</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+		
+   	<link rel="icon" href="../img/FavIcn.ico">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+
+
+<!-- This is the link to the toggle hamburger -->
+
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+			<div class="logobg mx-auto">
+			<div class= "row no-gutters ">
+				<div class="col-4">
+					<img src="../img/HeaderLogo.png" class="img-fluid mx-auto d-block">
+				</div>
+					<div class="col ">
+						<h1 class ="text-left"><a href="../index.html" class="logo">Giovanni Centeno</a></h1>
+					</div>
+				</div>
+			</div>
+				<div class="p-4 pt-4 ">
+	       <ul class="list-unstyled components">
+
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="../foundation/type3.html">Typography</a>
+                </li>
+								<li>
+                    <a href="../foundation/color.html">Color Palette</a>
+                </li>
+								<li>
+                    <a href="../foundation/logo.html">Logo</a>
+                </li>
+	            </ul>
+	          </li>
+					 
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+                <li>
+                    <a href="navigation.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a class="activebtn" aria-current="true" href="components/cards.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                <li>
+                    <a href="../patterns/home.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/work.html">Work Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/casestudy.html">Case Study Page</a>
+                </li>								
+
+              </ul>
+	          </li>
+					 
+	        </ul>
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h2>Cards</h2>
+							<p> The design system usestwo button styles. Buttons are used as another means of nagivation through the website and are repsonsive to screen size.</p>
+							
+							<h3>Examples</h3>
+							<p>The card layouts vary by screen size and page. To see card layouts by page, see<a href="../patterns/home.html">  page patterns</a></p>
+							<!-- row 1 -->
+							
+							<div class="row p-3">
+                <div class="col">
+								<div class="row " >			
+									<div class="col-lg-11 mx-auto ">
+										<div class="card HomeCard">
+											<div class= "row">
+											<div>
+												<img src="../img/photo.png" class="img-fluid " id="HomeCardPic">
+											</div>	
+											<div class="card-body ">
+												<h5 class="card-title" id= "type-H4">Feature Card Title</h5>
+												<p class="card-text" id="type-P">[Body Text briefly describing content the card directs to] Lorem ipsum dolor sit amet, consec tetur adip giscing elit. Phasellus sed lorem eget lacus gravida pulvinar quis et ante. </p>
+												<a href="/foundation/CaseStudy.html" class="btn btn-primary" >Go to [...]</a>
+											</div>
+											</div>
+										</div>							
+									</div>
+								</div>
+                </div>
+                <div class="col">
+                    <h3>Feature Card</h3>
+											<p>The feature card is meant to give users a preview of another page's content. Use feature cards to preview and direct users to the newest case study.</p> 
+											<p>The feature card should be used only on the Home page. There should only be one feature card included on the page. </p>
+                    	<h4>Use on:</h4>
+												<div class="row ">						
+													<ul> 
+														<li>Home page</li>
+													</ul>
+												</div>
+               	</div>
+            </div>
+						<!-- row 2 -->	
+							<hr class="solid2">
+							
+							<div class="row p-3">
+							<div class="col">
+								<div class="card bg-light text-dark CardSpace mx-auto">
+									<img src="../img/photo.png " class="img-fluid" alt="...">		
+									<div class="card-img-overlay CardTextSpace">
+										<h5 class="card-title" >Case Study Title</h5>
+											<p class="card-text"id= "type-P">[Body Text briefly describing case study the card directs to] Lorem ipsum dolor.</p>
+											<a href="#" class="stretched-link"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+									<h3>Gallery Card </h3>
+									<p>The gallery card acts as a large clickable button meant to give users a preview of a case study. Use gallery cards to preview and direct users to all case studies.</p> 
+									<p>The gallery card should be used only on the Work page. Gallery cards should be displayed in a grid layout with a maximum of two cards per row. </p>
+										<h4>Use on:</h4>
+											<div class="row ">						
+												<ul> 
+													<li>Work page</li>
+												</ul>
+											</div>
+							</div>
+            </div>
+						<!-- row 3 -->	
+						<hr class="solid2">	
+						<div class="row p-3">
+						<div class="col-lg-6 col-lg-ProjectCard" id="Content">
+							<div class=" card card-body ProjectCard">
+									<h5 class="card-title"  id="type-H4">Title</h5>
+									<ul class="card-text"  id="type-P">
+										<li>[Body Text in list format]</li>
+										<li>Sit amet consectetur</li>
+										<li>Adipiscing elit</li>
+										<li>Phasellus sed lorem</li> 
+									</ul>
+								</div>
+						</div>	
+                <div class="col">
+                    <h3>Project Card</h3>
+										<p>The project card is availble to highlight a shortened list of information. Use project cards to give users a highlited list of important information like project details, process details, etc..</p> 
+										<p>The project card should be used only within individual case studies. Multiple project cards can be used in a single case study. However, project cards should be not be placed next to each other. </p>
+                    	<h4>Use on:</h4>
+												<div class="row ">						
+													<ul> 
+														<li>Case Study page</li>
+													</ul>
+												</div>
+               	</div>							
+          		</div>				
+							
+							<h3 class="pt-5">Accessibility</h3>
+							<p>Ensure accessibility by using descriptive button labels for users using assistive technologies.</p>
+							<p>Also, inlcude descriptive alt text for all images used in cards.</p>
+							
+							<h3>Use</h3>
+							<p>Use responsive buttons bar on all pages. To see specifics on placement, see<a href="../patterns/home.html">  page patterns</a></p>
+							
+							<p><strong>Best Practices</strong></p> 
+								<ul>
+									<li>Ensure the buttons direct to a working existing page</li>
+									<li>Begin buttons with action oriented verbs <em>Go to</em>, <em>Back to</em>, or <em>View the</em></li>
+									<li>Use specified background color  White-4 (<code>#F1F1F1</code>) for Feature card background see<a href="../foundation/color.html"> design system color palette</a> </li>
+									<li>Use Hover states with darkened shadows for Gallery cards</li>				
+									<li>Use <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> elements for the lists on the Project cards</li>					
+								</ul>	
+							
+							<h3>Code</h3>
+							<pre class="language-markup scrollable">
+								<code>
+Feature Card
+&lt;div class="row " &gt;			
+	&lt;div class="col-lg-11 mx-auto "&gt;
+		&lt;div class="card HomeCard"&gt;
+			&lt;div class= "row"&gt;
+			&lt;div&gt;
+				&lt;img src="../img/photo.png" class="img-fluid " id="HomeCardPic"&gt;
+			&lt;/div&gt;	
+			&lt;div class="card-body "&gt;
+				&lt;h5 class="card-title" id= "type-H4"&gt;Feature Card Title&lt;/h5&gt;
+				&lt;p class="card-text" id="type-P"&gt;[Body Text briefly describing content the card directs to] Lorem ipsum dolor sit amet, consec tetur adip giscing elit. Phasellus sed lorem eget lacus gravida pulvinar quis et ante. &lt;/p&gt;
+				&lt;a href="/foundation/CaseStudy.html" class="btn btn-primary" &gt;Go to [...]&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;							
+	&lt;/div&gt;
+&lt;/div&gt;
+
+Gallery Card
+&lt;div class="card bg-light text-dark CardSpace mx-auto"&gt;
+	&lt;img src="../img/photo.png " class="img-fluid" alt="..."&gt;		
+	&lt;div class="card-img-overlay CardTextSpace"&gt;
+		&lt;h5 class="card-title" &gt;Case Study Title&lt;/h5&gt;
+			&lt;p class="card-text"id= "type-P"&gt;[Body Text briefly describing case study the card directs to] Lorem ipsum dolor.&lt;/p&gt;
+			&lt;a href="#" class="stretched-link"&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+Project Card
+&lt;div class="col-lg-6 col-lg-ProjectCard" id="Content"&gt;
+	&lt;div class=" card card-body ProjectCard"&gt;
+		&lt;h5 class="card-title"  id="type-H4"&gt;Title&lt;/h5&gt;
+			&lt;ul class="card-text"  id="type-P"&gt;
+				&lt;li&gt;[Body Text in list format]&lt;/li&gt;
+				&lt;li&gt;Sit amet consectetur&lt;/li&gt;
+				&lt;li&gt;Adipiscing elit&lt;/li&gt;
+				&lt;li&gt;Phasellus sed lorem&lt;/li&gt; 
+			&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+									</code>		
+									</pre>
+							
+
+
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+		
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

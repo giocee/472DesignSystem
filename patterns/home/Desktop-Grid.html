@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Giovanni Centeno Design System Home Page Pattern</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+		
+   	<link rel="icon" href="../img/FavIcn.ico">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+
+
+<!-- This is the link to the toggle hamburger -->
+
+   <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+			<div class="logobg mx-auto">
+			<div class= "row no-gutters ">
+				<div class="col-4">
+					<img src="../../img/HeaderLogo.png" class="img-fluid mx-auto d-block">
+				</div>
+					<div class="col ">
+						<h1 class ="text-left"><a href="../../index.html" class="logo">Giovanni Centeno</a></h1>
+					</div>
+				</div>
+			</div>
+				<div class="p-4 pt-4 ">
+	       <ul class="list-unstyled components">
+
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="../../foundation/type3.html">Typography</a>
+                </li>
+								<li>
+                    <a href="../../foundation/color.html">Color Palette</a>
+                </li>
+								<li>
+                    <a href="../../foundation/logo.html">Logo</a>
+                </li>
+	            </ul>
+	          </li>
+					 
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+                <li>
+                    <a href="../../components/navigation.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="../../components/buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../../components/cards.html">Cards</a>
+                </li>
+              </ul>
+	          </li>					 
+					 
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page Patterns</a>
+              <ul class="collapse.show list-unstyled" id="PatternsSubmenu">
+                <li>
+                    <a class="activebtn" aria-current="true" href="../home.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="../work.html">Work Page</a>
+                </li>
+                <li>
+                    <a href="../casestudy.html">Case Study Page</a>
+                </li>								
+
+              </ul>
+	          </li>
+					 
+	        </ul>
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h2>Home Page</h2>
+							<p> The <strong>Home page</strong> gives users a quick introduction to the site and bio.</p>
+							<p> It uses the following components: <a href="../../components/cards.html">Feature Card</a>, and <a href="../../components/navigation.html">Navigation Bar</a></p>
+							
+							<!-- row 1 -->	
+
+							<div class="row ">
+								<nav aria-label="Screen Sizes"> 
+									<ul class="pagination pagination" >
+
+										<li class="page-item"><a class="page-link" href="../home.html">Desktop Layout</a></li>
+
+										<li class="page-item active" aria-current="page"><a class="page-link" href="#">Desktop Grid</a></li>
+										
+										<li class="page-item"><a class="page-link" href="../home/Tablet.html">Tablet Layout</a></li>
+										<li class="page-item"><a class="page-link" href="../home/Tablet-Grid.html">Tablet Grid</a></li>
+										<li class="page-item"><a class="page-link" href="../home/Mobile.html">Mobile Layout</a></li>
+										<li class="page-item"><a class="page-link" href="../home/Mobile-Grid.html">Mobile Grid</a></li>									
+									</ul>
+								</nav>
+            	</div>	
+
+							<h4>Desktop layout is based on 1280px wide (col-12 grid)</h4>
+							<code>max-width: 967px; <br>
+							padding: 15px;</code>							
+							
+							<div class="col ">
+								<img src="../../img/HomePagePatterns/GridedLayouts/GridedLayout.Web%20-%20Home%201280px.png" class=" patternoutline img-fluid mx-auto">
+							</div>
+
+
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+	
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/popper.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
